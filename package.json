@@ -1,0 +1,22 @@
+{
+  "name": "pbottleproxy",
+  "version": "1.0.0",
+  "description": "only for test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "node index",
+    "build": "npx webpack-cli",
+    "client": "node client"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^7.1.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
